@@ -8,16 +8,13 @@
     android:layout_height="match_parent"
     tools:context=".Question3">
 
-  <TextView
-      android:id="@+id/resultsText"
+  <Button
+      android:id="@+id/submitBtn"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="5dp"
-      android:layout_marginBottom="32dp"
-      android:text="@string/results"
-      android:textAlignment="center"
-      android:textColor="@color/red_800"
-      android:textSize="16sp"
+      android:onClick="checkAnswer"
+      android:text="@string/submit_btn"
+      android:textSize="20sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.5"
@@ -30,23 +27,26 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginStart="5dp"
-      android:layout_marginTop="5dp"
       android:layout_marginEnd="5dp"
       android:elevation="2dp"
       android:outlineAmbientShadowColor="#000000"
-      app:layout_constraintBottom_toTopOf="@+id/resultsText"
+      android:padding="10dp"
+      app:layout_constraintBottom_toTopOf="@id/submitBtn"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/appTitle">
+      app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/submitBtn"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/resultsText"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:onClick="checkAnswer"
-        android:text="@string/submit_btn"
-        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/results"
+        android:textAlignment="center"
+        android:textColor="@color/red_800"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/rightImg"
         app:layout_constraintHorizontal_bias="0.5"
@@ -65,7 +65,7 @@
         android:text="@string/question"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/questionOptions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -80,8 +80,11 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp"
         android:baselineAligned="true"
+        android:paddingStart="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/submitBtn"
+        app:layout_constraintEnd_toStartOf="@+id/resultsText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questionText">
 
@@ -120,33 +123,15 @@
 
     <ImageView
         android:id="@+id/rightImg"
-        android:layout_width="126dp"
-        android:layout_height="168dp"
+        android:layout_width="107dp"
+        android:layout_height="139dp"
         android:contentDescription="@string/leaf_imgDesc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/submitBtn"
+        app:layout_constraintStart_toEndOf="@+id/resultsText"
         app:layout_constraintTop_toBottomOf="@+id/questionText"
         app:srcCompat="@drawable/mapleleaf" />
 
   </androidx.constraintlayout.widget.ConstraintLayout>
-
-  <TextView
-      android:id="@+id/appTitle"
-      style="@style/AppTitle"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="16dp"
-      android:layout_marginBottom="5dp"
-      android:elevation="2dp"
-      android:fontFamily="sans-serif-condensed-medium"
-      android:text="@string/app_name"
-      android:textAlignment="center"
-      android:textSize="24sp"
-      app:layout_constraintBottom_toTopOf="@+id/inner_container"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

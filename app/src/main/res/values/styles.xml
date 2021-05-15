@@ -9,4 +9,5 @@
     <style name="InnerContainer" parent="Theme.MaterialComponents">
     <item name="android:background">@drawable/rounded_bg</item>
     </style>
+
 </resources>

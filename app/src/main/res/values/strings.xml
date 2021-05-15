@@ -27,8 +27,8 @@
 
     <!-- will display whether the user's answer was correct -->
     <string name="results"></string>
-    <string name="answer_correct">That is correct!</string>
-    <string name="answer_incorrect">Incorrect - try again!</string>
+    <string name="answer_correct">Correct!</string>
+    <string name="answer_incorrect">Try again!</string>
 
     <!-- content description for the image -->
     <string name="leaf_imgDesc">Red maple leaf</string>
