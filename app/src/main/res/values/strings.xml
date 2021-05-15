@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Liberal Leaders Quiz</string>
+    <string name="question">Which Canadian Leader belongs to the Liberal party?</string>
+
+    <!-- question 1 radio buttons -->
+    <string name="q1_option_1">Stephen Harper</string>
+    <string name="q1_option_2">Justin Trudeau</string>
+    <string name="q1_option_3">Brian Mulroney</string>
+    <string name="q1_option_4">John Diefenbaker</string>
+
+    <!-- question 2 radio buttons -->
+    <string name="q2_option_1">Sir John A. Macdonald</string>
+    <string name="q2_option_2">Joe Clark</string>
+    <string name="q2_option_3">George Brown</string>
+    <string name="q2_option_4">Kim Campbell</string>
+
+    <!-- question 3 radio buttons -->
+    <string name="q3_option_1">Bob Rae</string>
+    <string name="q3_option_2">Mike Harris</string>
+    <string name="q3_option_3">Doug Ford</string>
+    <string name="q3_option_4">Kathleen Wynne</string>
+
+    <!-- advance button -->
+    <string name="submit_btn">Guess!</string>
+    <string name="next_btn">Next >></string>
+    <string name="close_btn">Close Quiz</string>
+
+    <!-- will display whether the user's answer was correct -->
+    <string name="results"></string>
+    <string name="answer_correct">That is correct!</string>
+    <string name="answer_incorrect">Incorrect - try again!</string>
+
+    <!-- content description for the image -->
+    <string name="leaf_imgDesc">Red maple leaf</string>
+    <string name="jt_imgDesc">Photo of Justin Trudeau</string>
+    <string name="gb_imgDesc">Photo of George Brown</string>
+    <string name="kw_imgDesc">Photo of Kathleen Wynne</string>
+</resources>

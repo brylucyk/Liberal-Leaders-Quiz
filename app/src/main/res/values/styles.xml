@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="OuterContainer" parent="Theme.MaterialComponents">
+    <item name="android:background">@drawable/gradient_bg</item>
+    </style>
+    <style name="AppTitle" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="InnerContainer" parent="Theme.MaterialComponents">
+    <item name="android:background">@drawable/rounded_bg</item>
+    </style>
+</resources>
