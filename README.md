@@ -1,6 +1,6 @@
-# Liberal Leader Quiz
+# Liberal Leaders Quiz
 This responsive mobile app was created for the first assignment of a Mobile Development course. The prompt was to create a quiz based on the first letter of your last name.  
-Added features to practice coursework on creating and launching new activities, saving state, and the app life cycle.
+Features were added to practice coursework on creating and launching new activities, saving state, and the app life cycle.
 
 This Java application was built from scratch in Android Studio.
 Optimized for API 28: Android 9.0 (Pie)+
