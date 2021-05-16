@@ -5,10 +5,15 @@ Features were added to practice coursework on creating and launching new activit
 This Java application was built from scratch in Android Studio.
 Optimized for API 28: Android 9.0 (Pie)+
 
+## Screenshots - Portrait Mode  
+![Main view in portrait mode](/app/src/main/res/drawable/portrait_main.png?raw=true "Portrait - Main View")
+![Portrait view of correct answer](/app/src/main/res/drawable/portrait_correct.png?raw=true "Portrait - Correct Answer")
+![Portrait view of incorrect answer](/app/src/main/res/drawable/portrait_incorrect.png?raw=true "Portrait - Incorrect Answer")
+
 ## Screenshots - Landscape Mode  
 ![Main view in landscape mode](/app/src/main/res/drawable/landscape_main.png?raw=true "Landscape - Main View")  
 ![Landscape view of correct answer](/app/src/main/res/drawable/landscape_correct.png?raw=true "Landscape - Correct Answer")
+![Landscape view of incorrect answer](/app/src/main/res/drawable/landscape_incorrect.png?raw=true "Landscape - Incorrect Answer")
 
-## Screenshots - Portrait Mode  
-![Portrait view of incorrect answer](/app/src/main/res/drawable/portrait_incorrect.png?raw=true "Portrait - Incorrect Answer")
-![Portrait view of final correct answer](/app/src/main/res/drawable/portrait_close.png?raw=true "Portrait - Final Correct Answer")
+
+
